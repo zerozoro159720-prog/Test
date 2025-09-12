@@ -44,8 +44,15 @@ int main()
       
       bool mairred = false;
       cout<<"Mairred: "<<mairred<<endl;
-      cout <<"***********************************************\n";
+      cout <<"***********************************************\n\n";
       
+      
+      int num1 =20, num2 =30, num3 =10;
+      cout<<"total = "<< num1+num2+num3<<"\n";
+      
+      
+      int AGE = 25;
+      cout<<"Aftter 5 Years you will be "<<AGE + 5<<" Years old\n";
 
     return 0;
 }
