@@ -12,39 +12,28 @@ int main()
       MyName : true
       #Nmae : false (#)
       $Name : false ($)
-      N@ame : false (@)
+      N@ame : true
       int : false (int)
       float : false (float)*/
       
-      cout <<"***********************************************\n";
-
-      string name ="Ameer_Mohamed-Elbanna.\n";
-      cout << "Nmae: " << name;
-
-      
+      string name ="Ameer_Mohamed-Elbanna.";
       int age = 16.;
-      cout<<"Age: "<<age<<endl;
-      
-      
-      string country ="Egypt.\n";
-      cout <<"Country: " << country;
-      
-      
+      string country ="Egypt.";
       int Monthly_Salary = 1000;
-      cout<<"Monthly Salary: "<<Monthly_Salary<<"\n";
-      
-      
       int Yearly_Salary = 12000;
-      cout<<"Yearly Salary: "<<Yearly_Salary<<"\n";
-
-
       char gander = 'M';
-      cout<<"Gander: "<<gander<<"\n";
-      
-      
       bool mairred = false;
-      cout<<"Mairred: "<<mairred<<endl;
-      cout <<"***********************************************\n\n";
+      cout <<"***********************************************\n";
+      
+      cout <<"Nmae: " <<name<<endl;
+      cout<<"Age: "<<age<<endl;
+      cout<<"Country:"<<country<<endl;
+      cout<<"MonthlySalary: "<<Monthly_Salary<<endl;
+      cout<<"YearlySalary: "<<Yearly_Salary<<endl;
+      cout<<"gander: "<<gander<<endl;
+      cout<<"mairred: "<<mairred<<endl;
+      
+      cout<<"***************************************\n\n";
       
       
       int num1 =20, num2 =30, num3 =10;
