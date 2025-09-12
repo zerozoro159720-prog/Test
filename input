@@ -1,0 +1,68 @@
+#include <iostream>
+using namespace std;
+int main ()
+{
+      /*string Name;
+      int Age;
+      string City;
+      string Country;
+      int Monthly_Salary;
+      int Yearly_Salary;
+      char Gander;
+      bool Married;
+      
+      cout<<"Plaese Enter Your  Name : "<<endl;
+      cin>>Name;
+      
+      cout<<"Plaese Enter Your Age : "<<endl;
+      cin>>Age;
+      
+      cout<<"Plaese Enter Your City : "<<endl;
+      cin>>City;
+      
+      cout<<"Plaese Enter Your Country : "<<endl;
+      cin>>Country;
+      
+      cout<<"Plaese Enter Your Monthly Salary : "<<endl;
+      cin>>Monthly_Salary;
+      
+      
+      cout<<"Plaese Enter Your Gander M/F ? : "<<endl;
+      cin>>Gander;
+      
+      cout<<"You mirred 1/0 ? "<<endl;
+      cin >> Married;
+      
+      cout<<"***************************************\n";
+      cout<<"Name : "<<Name<<endl;
+      cout<<"Age : "<<Age<<endl;
+      cout<<"City : "<<City<<endl;
+      cout<<"Country : "<<Country<<endl;
+      cout<<"Monthly Salary : "<<Monthly_Salary<<endl;
+      cout<<"Yearly Salary : "<<Monthly_Salary*12 <<endl;
+      cout<<"Gander : "<<Gander<<endl;
+      cout<<"Married : "<<Married<<endl;
+      cout<<"***************************************\n"; */
+      
+      int num1;
+      int num2;
+      int num3;
+      
+      cout<<"Number one : \n";
+      cin>>num1;
+      
+      cout<<"Number Two : \n";
+      cin>>num2;
+      
+      cout<<"Number Three : \n";
+      cin>>num3;
+      
+      cout<<"total = "<<num1+num2+num3 <<endl;
+      
+
+      int AGE ;
+      cout<<"Enter Your age : "<<endl;
+      cin>>AGE;
+      cout<<"Aftter 5 Years you will be "<<AGE + 5<<" Years old\n";
+      return 0;
+}
