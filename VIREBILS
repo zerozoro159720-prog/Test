@@ -1,1 +1,51 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+      /*Age : true
+      My-Age : false (-)
+      My_Age : true
+      _Age : true
+      2x : false (2)
+      X2 : true
+      My Nmae : false (space)
+      MyName : true
+      #Nmae : false (#)
+      $Name : false ($)
+      N@ame : true
+      int : false (int)
+      float : false (float)*/
+      
+      cout <<"***********************************************\n";
 
+      string name ="Ameer_Mohamed-Elbanna.\n";
+      cout << "Nmae: " << name;
+
+      
+      int age = 16.;
+      cout<<"Age: "<<age<<endl;
+      
+      
+      string country ="Egypt.\n";
+      cout <<"Country: " << country;
+      
+      
+      int Monthly_Salary = 1000;
+      cout<<"Monthly Salary: "<<Monthly_Salary<<"\n";
+      
+      
+      int Yearly_Salary = 12000;
+      cout<<"Yearly Salary: "<<Yearly_Salary<<"\n";
+
+
+      char gander = 'M';
+      cout<<"Gander: "<<gander<<"\n";
+      
+      
+      bool mairred = false;
+      cout<<"Mairred: "<<mairred<<endl;
+      cout <<"***********************************************\n";
+      
+
+    return 0;
+}
