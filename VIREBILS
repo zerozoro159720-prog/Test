@@ -12,7 +12,7 @@ int main()
       MyName : true
       #Nmae : false (#)
       $Name : false ($)
-      N@ame : true
+      N@ame : false (@)
       int : false (int)
       float : false (float)*/
       
