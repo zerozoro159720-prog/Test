@@ -23,13 +23,13 @@ int main()
       int Yearly_Salary = 12000;
       char gander = 'M';
       bool mairred = false;
-      cout <<"***********************************************\n";
+      cout<<"***************************************\n";
       
       cout <<"Nmae: " <<name<<endl;
       cout<<"Age: "<<age<<endl;
       cout<<"Country:"<<country<<endl;
       cout<<"MonthlySalary: "<<Monthly_Salary<<endl;
-      cout<<"YearlySalary: "<<Yearly_Salary<<endl;
+      cout<<"YearlySalary: "<<Monthly_Salary * 12<<endl;
       cout<<"gander: "<<gander<<endl;
       cout<<"mairred: "<<mairred<<endl;
       
