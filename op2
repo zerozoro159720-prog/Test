@@ -60,3 +60,29 @@ int main ()
       
       return 0;
 }
+
+
+#include <iostream>
+using namespace std;
+
+int main ()
+{
+      int num1,num2;
+      cout<<"enter num1 : "<<endl;
+      cin>>num1;
+      
+      cout<<"enter num2 : "<<endl;
+      cin>>num2;
+      
+      cout<<"num1 = "<<num1<<endl;
+      cout<<"num2 = "<<num2<<endl;
+      cout<<"----------------------------------"<<endl;
+      int temp = num1;
+      num1=num2;
+      num2=temp;
+      
+      cout<<"num1 = "<<num1<<endl;
+      cout<<"num2 = "<<num2<<endl;
+      
+      return 0;
+}
