@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+int main ()
+{
+      int num1,num2;
+      cout<<"Enter First Number : "<<"\n";
+      cin>>num1;
+      
+      cout<<"Enter Seconde Number : "<<"\n";
+      cin>>num2;
+      int res = num1+num2;
+      
+      cout<<"First Number + Seconde Number ,Total = "<<res<<endl;
+      cout<<"Half of Total = "<<res/2.<<endl;
+      return 0;
+}
+
+
