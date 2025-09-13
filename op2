@@ -107,3 +107,25 @@ int main ()
       
       return 0;
 }
+
+
+#include <iostream>
+using namespace std;
+
+int main ()
+{
+      int a,h;
+      
+      cout<<"enter a : "<<"\n";
+      cin>>a;
+      
+      cout<<"enter h : "<<"\n";
+      cin>>h;
+      
+      cout<<"a = "<<a<<endl;
+      cout<<"h = "<<h<<endl;
+      
+      int area =(a/2)*h;
+      cout<<"area = "<<area<<endl;
+      return 0;
+}
