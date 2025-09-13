@@ -17,3 +17,22 @@ int main ()
 }
 
 
+#include <iostream>
+using namespace std;
+
+int main ()
+{
+      int num1,num2,num3;
+      
+      cout<<"enter number one : "<<"\n";
+      cin>>num1;
+      
+      cout<<"enter number two : "<<"\n";
+      cin>>num2;
+      
+      cout<<"enter number three : "<<"\n";
+      cin>>num3;
+      int res =num1+num2+num3;
+      cout<<"total ="<<res<<endl;
+      return 0;
+}
