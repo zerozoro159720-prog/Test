@@ -129,3 +129,22 @@ int main ()
       cout<<"area = "<<area<<endl;
       return 0;
 }
+
+
+
+#include <iostream>
+using namespace std;
+
+int main ()
+{
+      float d;
+      const float pai = 3.14;
+      
+      cout<<"enter d : "<<endl;
+      cin>>d;
+      
+      float area = (pai*d*d)/4;
+      
+      cout<<"area ="<<area<<endl;
+      return 0;
+}
