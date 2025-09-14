@@ -303,3 +303,24 @@ int main ()
       
       return 0;
 }
+
+
+#include <iostream>
+using namespace std;
+
+int main ()
+{
+      
+      int total,month;
+      cout<<"total :"<<endl;
+      cin>>total;
+      
+      cout<<"month"<<endl;
+      cin>>month;
+      
+      int T = total/month;
+      
+      cout<<"total = "<<T<<endl;
+      
+      return 0;
+}
