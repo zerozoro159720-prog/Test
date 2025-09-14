@@ -186,3 +186,25 @@ int main ()
       
       return 0;
 }
+
+
+#include <iostream>
+using namespace std;
+
+int main ()
+{
+      const float PI = 3.14;
+      float A;
+      float B;
+      
+      cout<<"A = "<<"\n";
+      cin>>A;
+      
+      cout<<"B = "<<"\n";
+      cin>>B;
+      
+      float Area = (PI * B*B /4)*( (2*A - B)/(2*A + B) );
+      cout<<"Area ="<<Area<<endl;
+      
+      return 0;
+}
