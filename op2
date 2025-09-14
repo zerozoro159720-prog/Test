@@ -324,3 +324,24 @@ int main ()
       
       return 0;
 }
+
+
+#include <iostream>
+using namespace std;
+
+int main ()
+{
+      
+      int howmuchyouwant,month;
+      cout<<"how much you want : "<<endl;
+      cin>>howmuchyouwant;
+      
+      cout<<"how many time : "<<endl;
+      cin>>month;
+      
+      int t=howmuchyouwant/month;
+      
+      cout<<"you need to pai "<<t <<" in month"<<endl;
+      
+      return 0;
+}
