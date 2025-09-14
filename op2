@@ -148,3 +148,22 @@ int main ()
       cout<<"area ="<<area<<endl;
       return 0;
 }
+
+
+
+#include <iostream>
+using namespace std;
+
+int main ()
+{
+      const float PI =3.14;
+      float A;
+      
+      cout<<"A = "<<endl;
+      cin>>A;
+      
+      float Area = (PI * (A*A) )/4;
+      cout<<"Area ="<<Area<<"\n";
+      
+      return 0;
+}
