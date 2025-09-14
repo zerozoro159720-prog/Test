@@ -249,3 +249,25 @@ int main ()
       
       return 0;
 }
+
+
+
+#include <iostream>
+using namespace std;
+
+int main ()
+{
+      float totalbill;
+      float services = 1.1;
+      float salestax = 1.16;
+      cout<<"total bill :"<<endl;
+      cin>>totalbill;
+      
+      totalbill =(totalbill * services);
+      totalbill = (totalbill * salestax);
+      cout<<"total ="<<totalbill<<"\n";
+      
+
+      
+      return 0;
+}
