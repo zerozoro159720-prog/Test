@@ -208,3 +208,25 @@ int main ()
       
       return 0;
 }
+
+
+
+#include <iostream>
+using namespace std;
+
+int main ()
+{
+      int num1;
+      
+      cout<<"Enter number : "<<endl;
+      cin>>num1;
+      float total = num1*num1;
+      float total2 = num1*num1*num1;
+      float total3 = num1*num1*num1*num1;
+      
+      cout<<"total = "<<total<<endl;
+      cout<<total2<<endl;
+      cout<<total3<<endl;
+      
+      return 0;
+}
