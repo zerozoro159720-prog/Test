@@ -230,3 +230,22 @@ int main ()
       
       return 0;
 }
+
+
+#include <iostream>
+using namespace std;
+
+int main ()
+{
+      int cashpaid,totalbil;
+      cout<<"total bil = "<<endl;
+      cin>>totalbil;
+      
+      cout<<"cash paid = "<<endl;
+      cin>>cashpaid;
+      
+      int t=cashpaid - totalbil;
+      cout<<t<<endl;
+      
+      return 0;
+}
