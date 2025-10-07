@@ -42,3 +42,26 @@ int main ()
    return 0;
     
 }
+
+
+
+#include <iostream>
+#include <cmath>
+
+using namespace std;
+
+int main ()
+{
+   float pi = 3.14;
+   float D;
+   
+   cout<<"value of D : "<<endl;
+   cin>>D;
+   
+   float area = pi * pow(D,2)/4;
+   cout<<"value of area = "<<area<<endl;
+   
+   
+   return 0;
+    
+}
