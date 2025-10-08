@@ -19,25 +19,3 @@ int main()
 
    return 0;
 }
-
-
-
-#include <iostream>
-#include <cmath>
-
-using namespace std;
-int main ()
-{
-    int num1;
-    
-    cout <<"enter number  "<<endl;
-    cin>>num1;
-    
-    int x = num1*num1;
-    int z = x*num1;
-    int y = x*x;
-    cout <<"number ^2 ="<<x<<endl;
-    cout <<"number ^3 ="<<z<<endl;
-    cout <<"number ^4 ="<<y<<endl;
-    
-}
