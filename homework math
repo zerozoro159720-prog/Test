@@ -136,3 +136,31 @@ int main ()
    return 0;
     
 }
+
+
+
+#include <iostream>
+#include <cmath>
+
+using namespace std;
+
+int main ()
+{
+    float a,b,c;
+    float pi =3.14;
+    
+    cout<<"value of a :"<<endl;
+    cin>>a;
+    
+    cout<<"value of b :"<<endl;
+    cin>>b;
+    
+    cout<<"value of c :"<<endl;
+    cin>>c;
+    
+    float p = (a+b+c)/2;
+    float t = (a*b*c)/ (4 * sqrt (p* (p-a) * (p-b) * (p-c)));
+    float T =  pow (2,t);
+    float area = pi*T;
+    cout<<"value of area = "<<area<<endl;
+}
