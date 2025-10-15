@@ -1,0 +1,62 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+struct Money {
+    int monthSalary;
+    int yearSalary;
+};
+
+struct Data {
+    string name;
+    int age;
+    string city;
+    string country;
+    Money salary;
+};
+enum MyGander {Male , Famle};
+enum FavColor {Red , Black };
+enum MyStatus {Singel , Mariied};
+
+int main() {
+    
+    Data personal;
+
+    cout << "Enter Name: ";
+    getline(cin, personal.name);
+
+    cout << "Enter Age: ";
+    cin >> personal.age;
+
+    cout << "Enter City: ";
+    cin >> personal.city;
+
+    cout << "Enter Country: ";
+    cin >> personal.country;
+
+    cout << "Enter Monthly Salary: ";
+    cin >> personal.salary.monthSalary;
+    
+    FavColor Color ;
+    MyStatus stauts ;
+    MyGander Gander ;
+    
+    Color =FavColor::Black ;
+    stauts =MyStatus::Singel;
+    Gander =MyGander::Male;
+    
+    personal.salary.yearSalary = personal.salary.monthSalary * 12;
+
+    cout << "\n--- Personal Information ---\n";
+    cout << "Name: " << personal.name << endl;
+    cout << "Age: " << personal.age << endl;
+    cout << "City: " << personal.city << endl;
+    cout << "Country: " << personal.country << endl;
+    cout << "Monthly Salary: " << personal.salary.monthSalary << endl;
+    cout << "Yearly Salary: " << personal.salary.yearSalary << endl;
+    cout << "Gender: " <<Gander << endl;
+    cout << "Marital Status: " << stauts << endl;
+    cout<<"My fav Color is "<<Color<<endl;
+
+    return 0;
+}
