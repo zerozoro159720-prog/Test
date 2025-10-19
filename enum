@@ -1,62 +1,66 @@
 #include <iostream>
-#include <string>
 using namespace std;
 
-struct Money {
-    int monthSalary;
-    int yearSalary;
+enum enColor {Red, Blue, Black};
+enum enGander {Male, Famle};
+enum enMaritalStatus {Single, Married};
+
+struct stAdress
+{
+    string StreatName;
+    string BuildInfo;
+    string PoBox;
+    string ZibCode;
 };
 
-struct Data {
-    string name;
-    int age;
-    string city;
-    string country;
-    Money salary;
+struct stContactInfo
+{
+    string PhoneNumber;
+    string Email;
+    stAdress Adress;
 };
-enum MyGander {Male , Famle};
-enum FavColor {Red , Black };
-enum MyStatus {Singel , Mariied};
 
-int main() {
+struct stPerson
+{
+    string FirstName;
+    string LastName;
+    stContactInfo ContactInfo;
     
-    Data personal;
+    enColor Color;
+    enGander Gander;
+    enMaritalStatus MaritalStatus;
+};
 
-    cout << "Enter Name: ";
-    getline(cin, personal.name);
+int main()
+{
+    stPerson person1;
 
-    cout << "Enter Age: ";
-    cin >> personal.age;
+    person1.FirstName = "Ameer";
+    person1.LastName = "El-BANNA";
 
-    cout << "Enter City: ";
-    cin >> personal.city;
+    person1.ContactInfo.Email = "Ameer3mk@gmail.com";
+    person1.ContactInfo.PhoneNumber = "0107687680087";
+    person1.ContactInfo.Adress.ZibCode = "9999";
+    person1.ContactInfo.Adress.PoBox = "888";
+    person1.ContactInfo.Adress.BuildInfo = "big build";
+    person1.ContactInfo.Adress.StreatName = "2ard el mo3askr";
 
-    cout << "Enter Country: ";
-    cin >> personal.country;
+    person1.Color = Black;
+    person1.Gander = Male;
+    person1.MaritalStatus = Single;
 
-    cout << "Enter Monthly Salary: ";
-    cin >> personal.salary.monthSalary;
-    
-    FavColor Color ;
-    MyStatus stauts ;
-    MyGander Gander ;
-    
-    Color =FavColor::Black ;
-    stauts =MyStatus::Singel;
-    Gander =MyGander::Male;
-    
-    personal.salary.yearSalary = personal.salary.monthSalary * 12;
+    cout << "Name: " << person1.FirstName << " " << person1.LastName << endl;
+    cout << "Email: " << person1.ContactInfo.Email << endl;
+    cout << "Phone: " << person1.ContactInfo.PhoneNumber << endl;
+    cout << "Address: " 
+         << person1.ContactInfo.Adress.StreatName << ", "
+         << person1.ContactInfo.Adress.BuildInfo << ", "
+         << "P.O. Box: " << person1.ContactInfo.Adress.PoBox << ", "
+         << "Zip: " << person1.ContactInfo.Adress.ZibCode << endl;
 
-    cout << "\n--- Personal Information ---\n";
-    cout << "Name: " << personal.name << endl;
-    cout << "Age: " << personal.age << endl;
-    cout << "City: " << personal.city << endl;
-    cout << "Country: " << personal.country << endl;
-    cout << "Monthly Salary: " << personal.salary.monthSalary << endl;
-    cout << "Yearly Salary: " << personal.salary.yearSalary << endl;
-    cout << "Gender: " <<Gander << endl;
-    cout << "Marital Status: " << stauts << endl;
-    cout<<"My fav Color is "<<Color<<endl;
+    cout << "Color: " << person1.Color << endl;
+    cout << "Gender: " << person1.Gander << endl;
+    cout << "Marital Status: " << person1.MaritalStatus << endl;
 
     return 0;
 }
