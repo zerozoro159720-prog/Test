@@ -1,0 +1,48 @@
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+int main()
+{
+   string st1 = "43.22";
+   
+   int int_name = stoi (st1);
+   float float_name = stof (st1);
+   double double_name = stod (st1);
+   
+   cout<<"int name = "<<int_name<<endl;
+   cout<<"float name = "<<float_name<<endl;
+   cout<<"double name = "<<double_name<<endl;
+   cout<<"********************************************"<<endl;
+   int N1 =20;
+   
+   string str1;
+   str1 = to_string (N1);
+   
+   cout <<"N1 = "<<N1<<endl;
+   cout<<"********************************************"<<endl;
+   double N2 = 33.5;
+   string str2;
+   str2 = to_string (N2);
+   cout <<"N2 = "<<N2<<endl;
+   cout<<"********************************************"<<endl;
+   float N3 =55.23;
+   
+   string str3;
+   int int_str_3;
+   
+   str3 = to_string (N3);
+   cout<<"N3 = "<<N3<<endl;
+   
+   int_str_3 = N3 ;
+   cout<<"N3 = "<<N3<<endl;
+   
+   
+   
+   
+
+
+
+    return 0;
+}
