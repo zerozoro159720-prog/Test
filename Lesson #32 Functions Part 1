@@ -1,0 +1,45 @@
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+void print_info_card()
+{
+	cout << "Name : Ameer Mohamed "<<endl;
+	cout << "Age : 16"<<endl;
+	cout << "City : Kafr-EL_Shekh"<<endl;
+	cout << "Country : Egypt"<<endl<<endl;
+}
+void print_Stars()
+{
+	cout << "**************************" << endl;
+	cout << "**************************" << endl;
+	cout << "**************************" << endl;
+	cout << "**************************" << endl<<endl;
+}
+void print_iLoveProgramming()
+{
+	cout << "I Love Programing !" << endl;
+	cout << "I Promise To Be The Beast Devoloper Ever !" << endl;
+	cout << "I Will Work Hard To Achieve My Goal !" << endl<<endl;
+
+}
+void print_H()
+{
+	cout << "*      *" << endl;
+	cout << "*      *" << endl;
+	cout << "*      *" << endl;
+	cout << "********" << endl;
+	cout << "*      *" << endl;
+	cout << "*      *" << endl;
+	cout << "*      *" << endl << endl;
+}
+
+int main()
+{
+	print_info_card();
+	print_Stars();
+	print_iLoveProgramming(); 
+	print_H();
+	return 0;
+}
