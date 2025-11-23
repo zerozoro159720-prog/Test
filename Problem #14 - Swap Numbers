@@ -1,0 +1,32 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+int function()
+{
+	int FirstNumber, SecondeNumber, tepm;
+
+	cout << "Enter First Number : " << endl;
+	cin >> FirstNumber;
+
+	cout << "Enter Seconde Number : " << endl;
+	cin >> SecondeNumber;
+
+	cout << "****************************" << endl;
+
+	cout << FirstNumber << endl << SecondeNumber << endl;
+
+	tepm = FirstNumber;
+	FirstNumber = SecondeNumber;
+	SecondeNumber = tepm;
+	
+	cout << FirstNumber << endl << SecondeNumber << endl;
+
+	return 0;
+
+}
+int main ()
+{
+	function ();
+	return 0;
+}
