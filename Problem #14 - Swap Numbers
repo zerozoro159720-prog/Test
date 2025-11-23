@@ -2,7 +2,7 @@
 #include <string>
 using namespace std;
 
-int function()
+void procedure()
 {
 	int FirstNumber, SecondeNumber, tepm;
 
@@ -21,12 +21,10 @@ int function()
 	SecondeNumber = tepm;
 	
 	cout << FirstNumber << endl << SecondeNumber << endl;
-
-	return 0;
-
 }
+
 int main ()
 {
-	function ();
+	procedure();
 	return 0;
 }
