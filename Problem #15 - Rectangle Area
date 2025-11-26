@@ -2,29 +2,24 @@
 #include <string>
 using namespace std;
 
+
 int FirstNumber, SecondNumber; // ← متغيرات عامة
-
-void Numbers()
-{
-    cout << "Enter First Number: ";
-    cin >> FirstNumber;
-
-    cout << "Enter Second Number: ";
-    cin >> SecondNumber;
-
-    cout << "****************************" << endl;
-}
 
 int CalculateArea()
 {
-    int area;
-    area = FirstNumber * SecondNumber;
+
+    int area = FirstNumber * SecondNumber;
     return area;
 }
 
 int main()
 {
-    Numbers();
+    cout<<"Enter First Number :"<<endl;
+    cin>>FirstNumber;
+    
+    cout<<"Enter Sec Number :"<<endl;
+    cin>>SecondNumber;
+    
     cout << "Area is: " << CalculateArea() << endl;
     return 0;
 }
